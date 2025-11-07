@@ -1,0 +1,19 @@
+﻿<Window x:Class="Collab.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Collab.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="157*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox Grid.Column="1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,18,0"/>
+        <CheckBox Content="CheckBox" Margin="102,10,612,404" Grid.Column="1"/>
+        <ScrollBar Grid.Column="1" Margin="711,170,56,0" VerticalAlignment="Top" Height="153"/>
+
+    </Grid>
+</Window>
