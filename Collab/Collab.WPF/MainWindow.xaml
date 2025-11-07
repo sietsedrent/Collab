@@ -11,9 +11,8 @@
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="157*"/>
         </Grid.ColumnDefinitions>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,0,23,0" Grid.ColumnSpan="2" SelectionChanged="ListBox_SelectionChanged"/>
-        <CheckBox Content="CheckBox" Margin="241,189,473,224" Grid.Column="1"/>
-        <ScrollBar Grid.Column="1" Margin="711,170,56,0" VerticalAlignment="Top" Height="153"/>
+        <ListBox Margin="10,0,23,0" Grid.ColumnSpan="2" SelectionChanged="ListBox_SelectionChanged"/>
+        <Image Margin="0,-31,0,0" Source="/Robin.png.jpeg" Stretch="Fill" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
