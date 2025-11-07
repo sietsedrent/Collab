@@ -52,3 +52,11 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+.vs/Collab/FileContentIndex/783fad9e-25b1-4a3a-9884-f47e17404aeb.vsidx
+.vs/Collab/FileContentIndex/d0e15a23-3682-4305-a832-0b52e593f395.vsidx
+.vs/Collab/FileContentIndex/b15ed7a8-25fe-42b8-aa00-8c080ecf5536.vsidx
+.vs/Collab/FileContentIndex/cb06031f-9fb8-464b-9940-a7735c8c6c1b.vsidx
+.vs/Collab/FileContentIndex/d19d0542-0f2e-4915-ad83-0c8baf65f478.vsidx
+/.vs/Collab/FileContentIndex
+/.vs
+.vs/slnx.sqlite
