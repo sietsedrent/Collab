@@ -11,8 +11,9 @@
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="157*"/>
         </Grid.ColumnDefinitions>
-        <ListBox Margin="10,0,23,0" Grid.ColumnSpan="2" SelectionChanged="ListBox_SelectionChanged"/>
-        <Image Margin="0,-31,0,0" Source="/Robin.png.jpeg" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <ListBox Margin="10,0,0,0" Grid.ColumnSpan="2" SelectionChanged="ListBox_SelectionChanged">
+            <Image Height="431" Source="/saar.png" Stretch="Fill" Width="774"/>
+        </ListBox>
 
     </Grid>
 </Window>
